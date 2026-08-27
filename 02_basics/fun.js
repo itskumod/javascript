@@ -23,3 +23,13 @@ function calculateCartPrice(...num1){
 }
 
 console.log(calculateCartPrice(200,400,900))
+
+
+//scope
+let a=10
+var b=9
+const c=5
+
+console.log(a)
+console.log(b)
+console.log(c)
