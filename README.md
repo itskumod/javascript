@@ -1,2 +1,2 @@
 # javascript
-code to boot performance
+code to boost performance
