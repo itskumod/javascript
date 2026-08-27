@@ -32,4 +32,26 @@ const myfun=function(){
 
 }
 
-console.log(typeof bigint)
+//console.log(typeof bigint)
+
+
+//************************************** */
+//stack(primitive) //heap(non premative)
+
+let name="ravi";
+let anothername=name;
+anothername="Ram"
+console.log(name)
+console.log(anothername)
+
+let userone={
+    name:"Ravi",
+    age:31,
+    sex:"male",
+
+}
+let usertwo=userone
+
+usertwo.name="krishna"
+console.log(userone)
+console.log(usertwo)
