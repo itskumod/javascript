@@ -33,3 +33,20 @@ const c=5
 console.log(a)
 console.log(b)
 console.log(c)
+
+
+console.log(addone(2))
+function addone(num){
+    return num+1
+}
+
+
+
+
+//expression
+
+const addtwo=function(num){
+    return num+2
+
+}
+console.log(addtwo(5))
